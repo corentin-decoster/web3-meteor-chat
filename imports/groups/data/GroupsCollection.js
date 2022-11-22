@@ -3,8 +3,8 @@ import { createCollection } from 'meteor/quave:collections';
 import SimpleSchema from 'simpl-schema';
 
 
-export const GroupsDiscutionCollection = createCollection({ 
-    name: 'groupsDiscution',
+export const GroupsCollection = createCollection({ 
+    name: 'groups',
     schema: new SimpleSchema({
         group_name: {
             type: String,

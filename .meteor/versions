@@ -54,6 +54,7 @@ npm-mongo@4.11.0
 ordered-dict@1.1.0
 promise@0.12.1
 quave:collections@1.0.2
+quave:logs@1.0.8
 quave:settings@1.0.0
 raix:eventemitter@1.0.0
 random@1.2.1
