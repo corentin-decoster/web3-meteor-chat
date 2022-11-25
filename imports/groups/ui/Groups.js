@@ -3,7 +3,7 @@ import { methodCall } from "../../infra/methodCall";
 import { loggerClient } from 'meteor/quave:logs/loggerClient';
 
 export const Groups = () => {
-    const [groups, setGroups] = useState( []);
+    const [groups, setGroups] = useState( null);
     useEffect( () => {
         methodCall('groups')
         .then(data => {
@@ -18,7 +18,7 @@ export const Groups = () => {
         return 'loading ...';
     }
 
-    if (!groups.length){
+    if(!groups.length){
         return 'no groups yet';
     }
 

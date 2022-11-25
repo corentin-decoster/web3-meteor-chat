@@ -14,7 +14,7 @@ export const GroupsCollection = createCollection({
         },
         //type integer ??
         nb_messages: {
-            type: Int32Array
+            type: SimpleSchema.Integer,
         },
     }),
 });
